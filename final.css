@@ -1,0 +1,292 @@
+/* Beasiswa */
+body{
+    /*background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD1Jx4NL03ZysG9nz6woA-QoDpc0CpaHGNUw&usqp=CAU);*/
+    scroll-behavior: smooth;
+    background-color: #F3EFE0;
+}
+.header{
+    text-align: center; 
+    padding-top: 15px;
+    margin-top: -5px;
+    background-color: #4E6C50;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: -10px;
+    padding-right: 18px;
+    margin-top: -8px;
+}
+.header a{
+    margin-top: -0px;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 5px  solid #CFFDE1;
+    border-width: 1px;
+    margin-right: 5px;
+    color: #CFFDE1;
+}
+
+.konten{
+    margin-top: -20px;
+    width: auto;
+    height: auto;
+    color: whitesmoke;
+}
+.konten img{
+    float: left;
+    width: 350px;
+    height: 250px;
+    box-shadow: 5px 5px 10px rgb(77, 77, 77);
+    border-radius: 5px;
+}
+.konten p{
+    font-size: 20px;
+}
+
+.konten h3{
+    font-size: 20px;
+}
+.konten .konten1{
+    margin-left: 370px;
+    font-size: 25px;
+}
+
+
+.container{
+    background-color: #AA8B56;
+    width: 800px;
+    height: 90%;
+    margin-left: 240px;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+#head{
+    text-align: center;
+    font-size: 40px;
+    /*text-decoration: underline;*/
+    color: whitesmoke;
+    padding-top: 15px;
+}
+#beranda:hover{
+    background-color: #395144;
+    border-color: whitesmoke;
+    color: whitesmoke;
+}
+#kami:hover{
+    background-color: #395144;
+    border-color: whitesmoke;
+    color: whitesmoke;
+}
+#pendaftaran:hover{
+    background-color: #395144;
+    border-color: whitesmoke;
+    color: whitesmoke;
+}
+#biaya:hover{
+    background-color: #395144;
+    border-color: whitesmoke;
+    color: whitesmoke;
+}
+#beasiswa:hover{
+    background-color: #395144;
+    border-color: whitesmoke;
+    color: whitesmoke;
+}
+#kontak:hover{
+    background-color: #395144;
+    border-color: whitesmoke;
+    color: whitesmoke;
+}
+.bot{
+    margin-top: 40px;
+    padding-top: 10px;
+    width: 100%;
+    height: 30px;
+    background-color: #4E6C50;
+    text-align: center;
+    color: white;
+    margin-bottom: -20px;
+    padding-left: 17px;
+    margin-left: -8px;
+}
+
+/* #container {  
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+header {
+    grid-area: header;
+}
+main {
+    grid-area: main;
+}
+footer {
+    grid-area: footer;
+}*/
+
+/* .cf:before, 
+.cf:after {
+content: " ";
+display: table;
+}
+
+.cf:after {
+clear: both;
+}
+
+.cf {
+*zoom: 1;
+}*/
+
+
+
+/*Kontak*/
+body {
+    background-color: #F3EFE0;
+}
+
+.header2 {
+    text-align: center; 
+    padding-top: 15px;
+    margin-top: -5px;
+    background-color: #4E6C50;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: -10px;
+    padding-right: 18px;
+    margin-top: -8px;
+    grid-area: header; 
+}
+
+.header2 a{
+    margin-top: -0px;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 5px  solid #CFFDE1;
+    border-width: 1px;
+    margin-right: 5px;
+    color: #CFFDE1;
+}
+
+#head2 {
+    text-align: center;
+    font-size: 35px;
+    color: #AA8B56;
+    padding-top: 10px;
+    line-height: 0;
+}
+
+#beranda:hover{
+    background-color: #395144;
+    border-color: whitesmoke;
+    color: whitesmoke;
+}
+#kami:hover{
+    background-color: #395144;
+    border-color: whitesmoke;
+    color: whitesmoke;
+}
+#pendaftaran:hover{
+    background-color: #395144;
+    border-color: whitesmoke;
+    color: whitesmoke;
+}
+#biaya:hover{
+    background-color: #395144;
+    border-color: whitesmoke;
+    color: whitesmoke;
+}
+#beasiswa:hover{
+    background-color: #395144;
+    border-color: whitesmoke;
+    color: whitesmoke;
+}
+#kontak:hover{
+    background-color: #395144;
+    border-color: whitesmoke;
+    color: whitesmoke;
+}
+
+.container2 h3 {
+    font-size: 35px;
+    color: #AA8B56;
+    text-align: center;
+}
+.container2 iframe{
+    margin-left: 230px;
+    border-radius: 8px;
+    width: 800px;
+    height: 300px;
+}
+
+.bot2{
+    margin-top: 40px;
+    padding-top: 10px;
+    width: 100%;
+    height: 30px;
+    background-color: #4E6C50;
+    text-align: center;
+    color: white;
+    margin-bottom: -20px;
+    padding-left: 17px;
+    margin-left: -8px;
+    grid-area: footer;
+}
+
+.container2 p {
+    text-align: center;
+    color: white;
+    width: 600px;
+    height: 45px;
+    margin-top: -20px;
+    margin-left: 330px;
+    border-radius: 6px;
+    background-color: #AA8B56;
+}
+
+.konten2 {
+    width: 760px;
+    height: 130px;
+    border-radius: 6px;
+    background-color: #AA8B56;
+    margin-left: 250px;
+    color: white;
+    grid-area: main;
+}
+
+.alamat {
+    margin-top: -5px;
+}
+
+/* #container2 { 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+header {
+    grid-area: header;
+}
+main {
+    grid-area: main;
+}
+footer {
+    grid-area: footer;
+}*/
